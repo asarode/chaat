@@ -1,0 +1,10 @@
+{application,chaat,
+             [{description,"chaat"},
+              {modules,['Elixir.Chaat','Elixir.Chaat.ErrorHelpers',
+                        'Elixir.Chaat.Web']},
+              {registered,[]},
+              {vsn,"0.0.1"},
+              {mod,{'Elixir.Chaat',[]}},
+              {applications,[kernel,stdlib,elixir,phoenix,phoenix_pubsub,
+                             cowboy,logger,gettext,phoenix_ecto,postgrex,
+                             comeonin]}]}.
